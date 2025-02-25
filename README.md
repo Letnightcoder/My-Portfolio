@@ -1,4 +1,5 @@
 # Kallol's Portfolio
+![image](https://github.com/user-attachments/assets/2a997e14-2efb-460d-965d-65b504362f80)
 
 This is a personal portfolio website built with React and Vite. It showcases my skills, projects, and experience as a frontend developer.
 
