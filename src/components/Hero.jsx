@@ -93,6 +93,15 @@ export default function Hero() {
             >
               View My Work
             </motion.a>
+             <motion.a
+              href="#"
+              download
+              className="px-8 py-3 rounded-full text-white border-2 border-white/20 hover:bg-white/10 transition-all duration-300"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              My Resume
+            </motion.a>
             <motion.a
               href="#contact"
               className="px-8 py-3 rounded-full text-white border-2 border-white/20 hover:bg-white/10 transition-all duration-300"
