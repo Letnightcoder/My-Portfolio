@@ -46,16 +46,6 @@ export default function About() {
               into interactive, responsive websites.
             </motion.p>
 
-            <motion.a
-              href="#contact"
-              download
-              className="px-8 py-3 ml-56 font-medium rounded-full text-black border-2 border-gray-600 hover:bg-white/10 transition-all duration-300"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              variants={fadeInUp}
-            >
-              My Resume
-            </motion.a>
           </motion.div>
         </motion.div>
       </div>
