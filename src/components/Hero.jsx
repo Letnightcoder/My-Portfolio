@@ -2,6 +2,7 @@ import { ArrowDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { gradientText, gradientBg, gradientHover } from '../utils/gradients';
 import { fadeInUp, staggerContainer } from '../utils/animations';
+import ResumePDF from "../assets/Kallol'sResume.pdf";
 
 export default function Hero() {
   return (
@@ -94,7 +95,7 @@ export default function Hero() {
               View My Work
             </motion.a>
              <motion.a
-              href="#"
+              href={ResumePDF}
               download
               className="px-8 py-3 rounded-full text-white border-2 border-white/20 hover:bg-white/10 transition-all duration-300"
               whileHover={{ scale: 1.05 }}
