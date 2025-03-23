@@ -26,26 +26,6 @@ export const projectsData = [
     },
   },
   {
-    title: "iPhone Website Clone",
-    description: "This project is a web clone of the Apple iPhone 15 page.",
-    image: AppleIphoneImage,
-    tech: ["ReactJS", "Three.js", "GSAP", "Tailwind CSS"],
-    github: "https://github.com/Decodenight/Apple-iPhone-15",
-    live: "https://apple-iphone-15-tau.vercel.app/",
-    details: {
-      detail:
-        "This project is a web clone of the Apple iPhone 15 page, built using React, Vite, and Three.js. It showcases various features of the iPhone 15 with animations and 3D models.",
-      features: [
-        "Responsive design",
-        "3D model of iPhone 15 using Three.js",
-        "Smooth animations with GSAP",
-        "Interactive video carousel",
-        "Detailed sections highlighting the features of iPhone 15",
-      ],
-
-    },
-  },
-  {
     title: "Gemini Clone",
     description:
       "Gemini Clone is a React-based web application that mimics the functionality of a chat interface.",
