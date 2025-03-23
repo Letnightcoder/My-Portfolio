@@ -2,7 +2,7 @@ import { ArrowDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { gradientText, gradientBg, gradientHover } from '../utils/gradients';
 import { fadeInUp, staggerContainer } from '../utils/animations';
-import ResumePDF from "../assets/Kallol'sResume.pdf";
+import ResumePDF from "../assets/KALLOL-KUMAR-NATH-official.docx";
 
 export default function Hero() {
   return (
