@@ -1,9 +1,30 @@
 import CodeEditorImage from "../assets/CodeEditor.png";
-import AppleIphoneImage from "../assets/Apple-iPhone.png";
 import GeminiCloneImage from "../assets/GeminiClone.png";
 import OnlineFoodImage from "../assets/OnlineFood.png";
+import MyPortfolioImage from "../assets/MyPortfolio.png";
 
 export const projectsData = [
+  {
+    title: "My Portfolio",
+    description:
+      "This is a personal portfolio. It showcases my skills, projects, and experience as a frontend developer.",
+    image: MyPortfolioImage,
+    tech: ["ReactJS", "Tailwind Css","Framer Motion"],
+    github: "https://github.com/Decodenight/My-Portfolio",
+    live: "https://my-portfolio-taupe-six-27.vercel.app/",
+    details: {
+      detail:
+        "This is a personal portfolio website built with React and Vite. It showcases my skills, projects, and experience as a frontend developer.",
+      features: [
+        "Responsive design.",
+        "Interactive animations.",
+        "Project showcase with modals.",
+        "Smooth scrolling navigation.",
+        "showcases my skills, projects, and experience as a frontend developer.",
+      ],
+
+    },
+  },
   {
     title: "Code Editor",
     description:
