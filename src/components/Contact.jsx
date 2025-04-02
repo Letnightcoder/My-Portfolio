@@ -35,7 +35,7 @@ export default function Contact() {
               My contact information is below.
             </h3>
             <p className="text-gray-600">
-              You can reach out to me via email or LinkedIn.
+              You can reach out to me via email or LinkedIn or X(Twitter).
             </p>
 
             <div className="space-y-6">

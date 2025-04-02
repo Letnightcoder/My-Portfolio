@@ -27,14 +27,14 @@ export const timelineData = [
     icon: "education",
   },
   {
-    title: "Three.js, React Three Fiber",
+    title: "Framer Motion",
 
     description:
-      "Three.js is a JavaScript library for creating 3D graphics using WebGL & Fiber is a React renderer for Three.js that makes building 3D scenes declarative and easier in React applications.",
+      "Framer Motion is a JavaScript animation library designed for React applications, offering a simple and powerful way to create animations.",
     icon: "education",
   },
   {
-    title: "Use of AIs",
+    title: "Use of AI tools",
 
     description:
       "AI for problem solving, time saving, automated UI design, accessibility improvements, and AI-driven code generation.",

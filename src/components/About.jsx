@@ -29,7 +29,7 @@ export default function About() {
           >
             <img
               src={logo}
-              alt="Kallol Nath"
+              alt=""
               className="w-full h-full object-cover rounded-2xl"
             />
           </motion.div>
@@ -42,7 +42,7 @@ export default function About() {
               Hi, I'm Kallol Nath, a passionate frontend developer who loves
               building modern, user-friendly web applications. I specialize in
               Html, Css, ReactJS, JavaScript, TailwindCSS, and Git, Redux
-              Toolkit and API integrations. and I enjoy turning creative ideas
+              Toolkit, Framer Motion and API integrations. and I enjoy turning creative ideas
               into interactive, responsive websites.
             </motion.p>
 

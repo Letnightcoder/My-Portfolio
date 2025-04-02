@@ -10,7 +10,7 @@ export const projectsData = [
       "This is a personal portfolio. It showcases my skills, projects, and experience as a frontend developer.",
     image: MyPortfolioImage,
     tech: ["ReactJS", "Tailwind Css","Framer Motion"],
-    github: "https://github.com/Decodenight/My-Portfolio",
+    github: "https://github.com/Letnightcoder/My-Portfolio",
     live: "https://my-portfolio-taupe-six-27.vercel.app/",
     details: {
       detail:
@@ -31,7 +31,7 @@ export const projectsData = [
       "This project is a web-based code editor built with React and Vite.",
     image: CodeEditorImage,
     tech: ["ReactJS", "Chakra UI", "Monaco Editor","Framer Motion"],
-    github: "https://github.com/Decodenight/Code-Editor",
+    github: "https://github.com/Letnightcoder/Code-Editor",
     live: "https://code-editor-nu-sage.vercel.app/",
     details: {
       detail:
@@ -52,7 +52,7 @@ export const projectsData = [
       "Gemini Clone is a React-based web application that mimics the functionality of a chat interface.",
     image: GeminiCloneImage,
     tech: ["ReactJs", "Tailwind CSS", "Redux Toolkit", "API"],
-    github: "https://github.com/Decodenight/Gemini-Clone",
+    github: "https://github.com/Letnightcoder/Gemini-Clone",
     live: "https://gemini-clone-seven-xi.vercel.app/",
     details: {
       detail:
@@ -72,7 +72,7 @@ export const projectsData = [
     description: "Wiggy is a modern food delivery application.",
     image: OnlineFoodImage,
     tech: ["ReactJS", "Tailwind CSS", "Redux Toolkit", ],
-    github: "https://github.com/Decodenight/Food-Delivery-App",
+    github: "https://github.com/Letnightcoder/Food-Delivery-App",
     live: "https://food-delivery-app-gamma-woad.vercel.app/",
     details: {
       detail:

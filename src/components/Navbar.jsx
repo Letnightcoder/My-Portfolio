@@ -1,4 +1,4 @@
-import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
+import { Menu, Twitter, Github, Linkedin, Mail } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -40,7 +40,7 @@ export default function Navbar() {
             </a>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/Decodenight"
+                href="https://github.com/Letnightcoder"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-gray-900"
@@ -48,7 +48,15 @@ export default function Navbar() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/kallol-nath-20k/"
+                href="https://x.com/Letnightcoder"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-gray-900"
+              >
+                <Twitter className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kallolnath/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-gray-900"
@@ -56,7 +64,7 @@ export default function Navbar() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:official.kallol24@gmail.com"
                 className="text-gray-700 hover:text-gray-900"
               >
                 <Mail className="w-5 h-5" />
@@ -113,7 +121,7 @@ export default function Navbar() {
               </a>
               <div className="flex space-x-4 py-2">
                 <a
-                  href="https://github.com/Decodenight"
+                  href="https://github.com/Letnightcoder"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-gray-900"
@@ -121,7 +129,15 @@ export default function Navbar() {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/kallol-nath-20k/"
+                  href="https://x.com/Letnightcoder"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 hover:text-gray-900"
+                >
+                  <Twitter className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/kallolnath/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-gray-900"
