@@ -12,12 +12,12 @@ const About: React.FC<AboutProps> = ({ setActiveSection }) => {
     {
       icon: <Code size={24} />,
       title: 'Web Development',
-      description: 'Building modern, responsive websites with the latest technologies like React, JavaScript and Tailwind CSS.',
+      description: 'Building modern websites with the latest technologies like Nextjs, React, JavaScript and Tailwind CSS.',
     },
     {
       icon: <Globe size={24} />,
       title: 'UI/UX Design',
-      description: 'Creating intuitive and visually appealing interfaces that provide exceptional user experiences.',
+      description: 'Creating responsive, intuitive and visually appealing interfaces that provide exceptional user   experiences.',
     },
     {
       icon: <Zap size={24} />,
@@ -58,7 +58,7 @@ const About: React.FC<AboutProps> = ({ setActiveSection }) => {
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-6">
             I’m a passionate frontend developer skilled in HTML, CSS,
-            JavaScript, TypeScript and React. I enjoy creating clean, responsive
+            JavaScript, TypeScript, React and Next.js. I enjoy creating clean, responsive
             interfaces that deliver a great user experience and bring digital
             ideas to life.
           </p>
@@ -79,13 +79,13 @@ const About: React.FC<AboutProps> = ({ setActiveSection }) => {
               JavaScript
             </span>
             <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full text-sm font-medium">
-              TypeScript
-            </span>
-            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full text-sm font-medium">
               React
             </span>
             <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full text-sm font-medium">
-              Motion
+              Next.js
+            </span>
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full text-sm font-medium">
+              TypeScript 
             </span>
             <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full text-sm font-medium">
               TailwindCSS
