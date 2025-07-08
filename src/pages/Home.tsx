@@ -2,7 +2,8 @@ import React from "react";
 import { ArrowDown } from "lucide-react";
 import Section from "../components/Section";
 import AnimatedElement from "../components/AnimatedElement";
-import resumePDF from "../assets/Kallol_Frontend_Resume.pdf";
+import resumePDF from "../assets/Kallol-Kumar-Nath-Frontend-Developer-Resume.pdf";
+
 
 interface HomeProps {
   setActiveSection: (id: string) => void;
@@ -66,7 +67,7 @@ const Home: React.FC<HomeProps> = ({ setActiveSection }) => {
             </a>
             <a
               href={resumePDF}
-              download="Kallol_Frontend_Resume.pdf"
+              download="Kallol-Kumar-Nath-Frontend-Developer-Resume.pdf"
               className="px-6 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-700 dark:text-white font-medium rounded-lg shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
             >
               My Resume
