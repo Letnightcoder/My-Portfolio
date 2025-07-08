@@ -12,7 +12,7 @@ const Skills: React.FC<SkillsProps> = ({ setActiveSection }) => {
   const frontendSkills: Skill[] = [
     { name: 'HTML5 & CSS3', level: 95 },
     { name: 'JavaScript', level: 90 },
-    { name: 'Nextjs', level: 85 },
+    { name: 'Next.js', level: 85 },
     { name: 'React', level: 92 },
   ];
 
@@ -20,12 +20,12 @@ const Skills: React.FC<SkillsProps> = ({ setActiveSection }) => {
     { name: 'Responsive Design', level: 90 },
     { name: 'Tailwind CSS', level: 92 },
     { name: 'Material UI', level: 85 },
-    { name: 'CSS-in-JS', level: 88 },
+    { name: 'Shadcn UI', level: 88 },
   ];
 
   const otherSkills: Skill[] = [
     { name: "Git & GitHub", level: 90 },
-    { name: "Nodejs", level: 85 },
+    { name: "Node.js", level: 85 },
     { name: "RESTful APIs", level: 88 },
     { name: "Problem-solving", level: 92 },
   ];

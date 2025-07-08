@@ -58,7 +58,7 @@ const About: React.FC<AboutProps> = ({ setActiveSection }) => {
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-6">
             I’m a passionate frontend developer skilled in HTML, CSS,
-            JavaScript, TypeScript, React and Next.js. I enjoy creating clean, responsive
+            JavaScript, TypeScript, React, Next.js and Node.js. I enjoy creating clean, responsive
             interfaces that deliver a great user experience and bring digital
             ideas to life.
           </p>

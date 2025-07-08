@@ -6,6 +6,8 @@ import { Project } from "../types";
 
 // Import project images
 import zomatoImage from "../assets/Zomato-Clone.png";
+import docomoImage from "../assets/Docomo.png";
+import yoomImage from "../assets/Yoom.png";
 import codeEditorImage from "../assets/Code-Editor.png";
 import aiSummaryImage from "../assets/Chrome-Extention.png";
 import geminiImage from "../assets/Gemini-Clone.png";
@@ -18,11 +20,29 @@ interface ProjectsProps {
 const Projects: React.FC<ProjectsProps> = ({ setActiveSection }) => {
   const projects: Project[] = [
     {
+      title: "Yoom",
+      description:
+        "YOOM is a modern video calling web application inspired by Zoom, built with Next.js, Clerk authentication, and Stream Video SDK. It features user authentication, personal and scheduled meeting rooms, recordings, and a responsive UI.",
+      image: yoomImage,
+      tags: ["React", "Next.js", "Clerk", "Tailwind CSS", "Stream Video React SDK"],
+      githubUrl: "https://github.com/Letnightcoder/Yoom",
+      demoUrl: "https://yoom-psi-lilac.vercel.app/",
+    },
+    {
+      title: "Docomo",
+      description:
+        "A real-time collaborative document editor built with Next.js, Liveblocks, and Lexical editor. It allows multiple users to edit documents simultaneously, with features like text formatting, collaborative editing, and a responsive design.",
+      image: docomoImage,
+      tags: ["React", "Next.js", "Clerk", "Lexical Editor", "Liveblocks"],
+      githubUrl: "https://github.com/Letnightcoder/Docomo",
+      demoUrl: "https://docomo-three.vercel.app/",
+    },
+    {
       title: "Zomato Clone",
       description:
         "The project showcases skills in modern web development and provides an opportunity to explore a Zomato-like user experience.It is primarily built using React with some contributions from TypeScript, JavaScript, CSS, and HTML.",
       image: zomatoImage,
-      tags: ["React", "TypeScript", "Tailwind CSS", "Redux"],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Redux", "React Router"],
       githubUrl: "https://github.com/Letnightcoder/Zomato-Clone",
       demoUrl: "https://zomato-clone-two-ruddy.vercel.app/",
     },
@@ -35,6 +55,15 @@ const Projects: React.FC<ProjectsProps> = ({ setActiveSection }) => {
       githubUrl: "https://github.com/Letnightcoder/Code-Editor",
       demoUrl: "https://code-editor-nu-sage.vercel.app/",
     },
+     {
+      title: "Personal Portfolio",
+      description:
+        "An application that helps users find recipes based on ingredients they have. Features include filtering by dietary restrictions, saving favorites, and meal planning.",
+      image: portfolioImage,
+      tags: ["React", "TypeScript", "Framer Motion", "bolt.new"],
+      githubUrl: "https://github.com/Letnightcoder/My-Portfolio",
+      demoUrl: "https://my-portfolio-taupe-six-27.vercel.app/",
+    },
     {
       title: "AI Summary Chrome Extension",
       description:
@@ -43,15 +72,6 @@ const Projects: React.FC<ProjectsProps> = ({ setActiveSection }) => {
       tags: ["JavaScript", "Chrome Storage API", "Google Gemini API"],
       githubUrl:
         "https://github.com/Letnightcoder/AI-Summarize-Chrome-Extension",
-    },
-    {
-      title: "Personal Portfolio",
-      description:
-        "An application that helps users find recipes based on ingredients they have. Features include filtering by dietary restrictions, saving favorites, and meal planning.",
-      image: portfolioImage,
-      tags: ["React", "TypeScript", "Framer Motion", "bolt.new"],
-      githubUrl: "https://github.com/Letnightcoder/My-Portfolio",
-      demoUrl: "https://my-portfolio-taupe-six-27.vercel.app/",
     },
     {
       title: "Gemini Clone",
